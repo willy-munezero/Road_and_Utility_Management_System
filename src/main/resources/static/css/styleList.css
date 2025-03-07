@@ -1,0 +1,212 @@
+
+	body{
+    background-image: url(21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; height: 100%;
+    background-attachment: fixed;
+    }
+#form{
+    background-color: #000;
+    height:610px;
+    width:700px;
+    margin:auto;
+    padding:20px;
+    opacity: 0.7;
+}
+/* Set the width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: /*#034694*/#007bff;
+   border-radius: 5px;
+   width: 50%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+table{
+    background-color: #000;
+    height:300px;
+    width:100%;
+    margin:auto;
+    padding:20px;
+    /*border-collapse: collapse;*/
+    opacity: 0.9;
+}
+
+th {
+  white-space: nowrap;
+  /*border-right: 1px solid black;*/
+    /*padding: 5px;*/
+}
+td {
+    color:white;
+
+}
+
+td img {
+  transition: all 0.5s;
+}
+
+td img:hover {
+  transform: scale(5);
+
+}
+.centered {
+  width:95%; /* adjust the width as needed */
+  margin: auto;
+  margin-top: 70px;
+  overflow-x: auto;
+}
+/* Change outline color */
+input[type="date"]:focus {
+  outline-color: #00BFFF;
+}
+
+/* Change calendar icon color */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1) hue-rotate(180deg);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.parentDiv{
+width: 100%;
+}
+
+.left, .right {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+h2 {
+  margin-left: 40px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 25px;
+  display:block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  /*overflow-x: scroll;*/
+  /*overflow-y: visible; *//* or overflow-y: hidden */
+}
+#form h3{
+    border-bottom: 2px solid #3399ff;
+    width:210px;
+    margin-left:35%;
+    margin-top:20px;
+    text-align: center;
+    padding: 5px;
+}
+
+caption{
+border-bottom: 2px solid #3399ff;
+    width:210px;
+    margin-left:35%;
+    margin-top:20px;
+    text-align: center;
+    padding: 5px;
+}
+::placeholder{
+    color:#fff
+}
+#input #input-group{
+    width:250px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+
+
+#input #dates{
+    background: black;
+    color:white;
+    margin:Auto 10px;
+}
+#input2 #input-group{
+    width:195px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input3 #input-group{
+    margin-left: 50px;
+}
+#input4 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input4 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input5 h3{
+    border-bottom: 2px solid #3399ff;
+    width:220px;
+    padding: 5px;
+}
+#input6 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input6 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
